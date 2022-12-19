@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.section{
+  width: 100%;
+  height: 100vh;
+  background-color: crimson;
+}
+.section .container{
+  width: 500px;
+  margin: auto;
+  background-color: white;
+
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 10px;
+  border: 1px solid #666;
+}
+.btnDelete{
+  width: 70px;
+  height: 40px;
+  border-radius:5px;
+  border: none;
+}
